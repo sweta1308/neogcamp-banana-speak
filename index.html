@@ -9,6 +9,7 @@
         #txt-input {
             height: 10vh;
             width: 80%;
+            border-radius: 0.5rem;
             margin: 1rem;
             padding: 1rem;
         }
@@ -16,14 +17,20 @@
             border: 1px solid black;
             height: 10vh;
             width: 80%;
+            border-radius: 0.5rem;
             margin: 1rem;
             padding: 1rem;
         }
     </style>
+    <link href="styles.css" rel="stylesheet"/>
 </head>
 <body>
+    <nav class="navigation container">
+        <div class="nav-brand">
+           Banana Talk
+        </div>
+    </nav>
     
-    <h1>talk bananaaaaa</h1>
     <textarea id="txt-input" placeholder="Enter your sentence here"></textarea>
     <button id="btn-translate">Translate</button>
     <div style="font-size:larger">Output will come here </div>
