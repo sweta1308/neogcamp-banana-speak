@@ -17,7 +17,7 @@ body {
 
 .nav-brand {
     padding: 0.05rem;
-    color: #0369a1;
+    color: white;
     font-size: x-large;
 }
 
@@ -52,4 +52,34 @@ body {
 }
 
 
+.footer {
+    background-color: #facc15;
+    padding: 1.5rem 0rem;
+    text-align: center;
+    color: white;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+
+.footer .link {
+    color: white;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer ul {
+    padding-inline-start: 1px;
+}
+
+li {
+    padding: 0.1rem;
+}
+
+.link {
+    text-decoration: none;
+}
 
