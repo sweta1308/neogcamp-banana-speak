@@ -21,21 +21,34 @@ body {
     font-size: x-large;
 }
 
-textarea {
-    max-width: 650px;
-    max-height: 500px;
+#output, textarea {
+    max-width: 550px;
+    height: 100px;
     text-align: center;
-    margin: 100px;
-    max-width: 60%;
-    height: 100%;
-    font-size: larger;
-    border-color: #fde047;
-    border-width: 0.2rem;
     display: block;
 }
 
+.input-field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1rem;
+    margin-bottom: 0rem;
+}
+
 .output {
-    color: #be123c;
+    color: #412424;
+    margin-top: 2rem;
+    font-size: large;
+}
+
+#btn-translate {
+    background-color: #facc15;
+    max-width: 500px;
+    border-radius: 0.5rem;
+    font-size: larger;
+    padding: 1rem;
 }
 
 
