@@ -1,12 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
 
-body {
-    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
-}
+
 .navigation {
     background-color: rgb(236, 204, 24);
     text-align: center;
-    height: 15vh;
-    ;
+    
 }
 
