@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
-    font-family: 'Oswald', 
-    sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0rem;
 }
 
@@ -17,7 +16,7 @@ body {
 
 .nav-brand {
     padding: 0.05rem;
-    color: white;
+    color: black;
     font-size: x-large;
 }
 
@@ -57,14 +56,14 @@ body {
     background-color: #facc15;
     padding: 1.5rem 0rem;
     text-align: center;
-    color: white;
+    color: black;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
 }
 
 
 .footer .link {
-    color: white;
+    color: black;
 }
 
 .footer .footer-header {
